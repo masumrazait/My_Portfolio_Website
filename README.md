@@ -3,7 +3,7 @@ Explore my single-page portfolio, where software testing expertise meets excelle
 
 # Masum Raza Portfolio
 
-![Masum Raza Portfolio Screenshot](portfolio-screenshot.png)
+![Masum Raza Portfolio Screenshot](assets/images/Screenshot.png)
 
 Welcome to my single-page portfolio website! This repository contains the code for my personal portfolio site, showcasing my skills, experience, and projects as a Full Stack QA Tester.
 

@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "About | Masum Raza's Portfolio";
+            document.title = "About Me | Masum Raza's Portfolio";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {

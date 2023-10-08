@@ -78,9 +78,6 @@ You can reach out to me via:
 - [Work Experience](https://masumrazait.netlify.app/#work-experience)
 - [Contact](https://masumrazait.netlify.app/#contact)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ---
 

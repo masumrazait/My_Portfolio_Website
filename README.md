@@ -16,7 +16,7 @@ Explore my portfolio: [https://masumrazait.netlify.app/](https://masumrazait.net
 - [About Me](#about-me)
 - [Skills](#skills)
 - [Education](#education)
-- [Work Experience](#work-experience)
+- [Work Experience](#work)
 - [Contact](#contact)
 - [Quick Links](#quick-links)
 - [License](#license)

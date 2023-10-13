@@ -249,3 +249,22 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+/*CONTACT FORM*/
+function submitForm() {
+  // Simulate form submission (you can replace this with your actual form submission code)
+  // Here, we'll simply clear the form and display the thanks message.
+
+  // Clear the form
+  document.getElementById('contact-form').reset();
+
+  // Display the thanks message
+  const thanksMessage = document.getElementById('thanks-message');
+  thanksMessage.textContent = 'Thanks for submitting!';
+  thanksMessage.style.display = 'block';
+
+  // Hide the message after 5 seconds (5000 milliseconds)
+  setTimeout(function() {
+    thanksMessage.style.display = 'none';
+  }, 5000);
+}

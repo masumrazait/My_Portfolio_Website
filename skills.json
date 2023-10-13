@@ -8,6 +8,10 @@
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/python--v1.png"
+    },
+    {
         "name": "TestCafe",
         "icon": "https://img.icons8.com/3d-fluency/50/test-passed.png"
     },
@@ -58,10 +62,6 @@
     {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/python--v1.png"
     },
     {
         "name": "Node-js",

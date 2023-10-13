@@ -60,6 +60,19 @@
         "icon": "https://img.icons8.com/color/48/000000/javascript--v1.png"
     },
     {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/python--v1.png"
+    },
+    {
+        "name": "Node-js",
+        "icon": "https://img.icons8.com/fluency/48/node-js.png"
+    }
+    ,
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-Linux-logos-and-brands-those-icons-flat-those-icons.png"
+    },
+    {
         "name": "Jira",
         "icon": "https://img.icons8.com/color/48/jira.png"
     },
@@ -72,27 +85,15 @@
         "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
     },
     {
+        "name": "Bitbucket",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/50/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-color-tal-revivo.png"
+    },
+    {
         "name": "Git VCS",
         "icon": "https://img.icons8.com/color/48/000000/git.png"
     },
     {
         "name": "MS-Office",
         "icon": "https://img.icons8.com/color/48/office-365.png"
-    },
-    {
-        "name": "Linux",
-        "icon": "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-Linux-logos-and-brands-those-icons-flat-those-icons.png"
-    },
-    {
-        "name": "Python",
-        "icon": "https://img.icons8.com/color/48/python--v1.png"
-    },
-    {
-        "name": "Node-js",
-        "icon": "https://img.icons8.com/fluency/48/node-js.png"
-    },
-    {
-        "name": "Bitbucket",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/50/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-color-tal-revivo.png"
-    } 
+    }
 ]

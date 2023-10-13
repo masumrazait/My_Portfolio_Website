@@ -24,6 +24,14 @@
         "icon": "https://img.icons8.com/color/48/api-settings.png"
     },
     {
+        "name": "ManualTesting",
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-testing-digital-nomading-relocation-flaticons-lineal-color-flat-icons.png"
+    },
+    {
+        "name": "Bug Tracking",
+        "icon": "https://img.icons8.com/ios-filled/50/FA5252/insect.png"
+    },
+    {
         "name": "GCP",
         "icon": "https://img.icons8.com/color/48/google-cloud-platform.png"
     },
@@ -70,5 +78,21 @@
     {
         "name": "MS-Office",
         "icon": "https://img.icons8.com/color/48/office-365.png"
+    },
+    {
+        "name": "Linux",
+        "icon": "https://img.icons8.com/external-those-icons-flat-those-icons/48/external-Linux-logos-and-brands-those-icons-flat-those-icons.png"
+    },
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/python--v1.png"
+    },
+    {
+        "name": "Node-js",
+        "icon": "https://img.icons8.com/fluency/48/node-js.png"
+    },
+    {
+        "name": "Bitbucket",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/50/external-bitbucket-is-a-web-based-version-control-repository-hosting-service-logo-color-tal-revivo.png"
     } 
 ]

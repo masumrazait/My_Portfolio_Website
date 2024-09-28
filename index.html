@@ -557,52 +557,27 @@
           <i class='fas fa-user'></i>
         </div>
         <div class="field">
-          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="email" placeholder="Email" required>
           <i class='fas fa-envelope'></i>
         </div>
         <div class="field">
-          <input type="text" name="phone" placeholder="Phone" maxlength="10" required>
+          <input type="text" name="phone" placeholder="Phone" maxlength="10">
           <i class='fas fa-phone-alt'></i>
         </div>
         <div class="message">
         <textarea placeholder="Message" name="message" required></textarea>
         <i class="fas fa-comment-dots"></i>
         </div>
-      </div>
-      
+        </div>
       <div class="button-area">
-        <button type="submit">
-          Submit <i class="fa fa-paper-plane"></i>
-        </button>
+        <button type="submit"disabled>
+          Submit <i class="fa fa-paper-plane"></i></button>
       </div>
-
-      <!-- Success message will appear here -->
-      <div id="success-message" style="color: green; font-size: 16px; margin-top: 10px; display: none;">
-        Your data has been sent successfully!
-      </div>
-
     </form>
   </div>
   </div>
 </section>
 <!-- contact section ends -->
-
-<script>
-  // JavaScript to handle form submission and display success message
-  const contactForm = document.getElementById('contact-form');
-  const successMessage = document.getElementById('success-message');
-
-  contactForm.addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent form from submitting in the default way
-    
-    // Check if the form is valid (you can add more validation if needed)
-    if (contactForm.checkValidity()) {
-      successMessage.style.display = 'block'; // Show success message
-      contactForm.reset(); // Optionally reset the form
-    }
-  });
-</script>
-
 
 
 <!-- footer section starts -->

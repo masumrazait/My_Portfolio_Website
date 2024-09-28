@@ -119,7 +119,16 @@
 
     <div class="container">
           <div class="row" id="skillsContainer">
-           <!-- Selenium -->
+           
+            <!-- Java -->
+        <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="skills">
+                <span>Java</span>
+              </div>
+          </div>
+
+          <!-- Selenium -->  
         <div class="bar">
               <div class="info">
                 <img src="https://img.icons8.com/ios-filled/50/40C057/selenium-test-automation.png" alt="skills"/>
@@ -127,13 +136,37 @@
               </div>
             </div>
 
-            <!-- Java -->
+        <!-- DB Testing -->
         <div class="bar">
               <div class="info">
-                <img src="https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png" alt="skills">
-                <span>Java</span>
+                <img src="https://img.icons8.com/color/48/database.png" alt="skill">
+                <span>DB Testing</span>
               </div>
-            </div>
+        </div>
+
+        <!-- Api Testing -->
+        <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/api-settings.png" alt="skill">
+                <span>Api Testing</span>
+              </div>
+        </div>
+
+        <!-- Manual Testing -->
+        <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/external-testing-digital-nomading-relocation-flaticons-lineal-color-flat-icons.png" alt="skill">
+                <span>ManualTesting</span>
+              </div>
+        </div>
+
+        <!-- Bug Tracking -->
+        <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/ios-filled/50/FA5252/insect.png" alt="skill">
+                <span>Bug Tracking</span>
+              </div>
+        </div>
 
         <!-- TestCafe -->
         <div class="bar">
@@ -149,37 +182,6 @@
               <span>browserStack</span>
             </div>
           </div>
-          <!-- DB Testing -->
-        <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/color/48/database.png" alt="skill">
-                <span>DB Testing</span>
-              </div>
-            </div>
-
-        <!-- Api Testing -->
-        <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/color/48/api-settings.png" alt="skill">
-                <span>Api Testing</span>
-              </div>
-            </div>
-
-        <!-- Manual Testing -->
-        <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/external-testing-digital-nomading-relocation-flaticons-lineal-color-flat-icons.png" alt="skill">
-                <span>ManualTesting</span>
-              </div>
-            </div>
-
-        <!-- Bug Tracking -->
-        <div class="bar">
-              <div class="info">
-                <img src="https://img.icons8.com/ios-filled/50/FA5252/insect.png" alt="skill">
-                <span>Bug Tracking</span>
-              </div>
-            </div>
 
          <!-- GCP -->      
         <div class="bar">
@@ -555,27 +557,52 @@
           <i class='fas fa-user'></i>
         </div>
         <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
+          <input type="email" name="email" placeholder="Email" required>
           <i class='fas fa-envelope'></i>
         </div>
         <div class="field">
-          <input type="text" name="phone" placeholder="Phone" maxlength="10">
+          <input type="text" name="phone" placeholder="Phone" maxlength="10" required>
           <i class='fas fa-phone-alt'></i>
         </div>
         <div class="message">
         <textarea placeholder="Message" name="message" required></textarea>
         <i class="fas fa-comment-dots"></i>
         </div>
-        </div>
-      <div class="button-area">
-        <button type="submit"disabled>
-          Submit <i class="fa fa-paper-plane"></i></button>
       </div>
+      
+      <div class="button-area">
+        <button type="submit">
+          Submit <i class="fa fa-paper-plane"></i>
+        </button>
+      </div>
+
+      <!-- Success message will appear here -->
+      <div id="success-message" style="color: green; font-size: 16px; margin-top: 10px; display: none;">
+        Your data has been sent successfully!
+      </div>
+
     </form>
   </div>
   </div>
 </section>
 <!-- contact section ends -->
+
+<script>
+  // JavaScript to handle form submission and display success message
+  const contactForm = document.getElementById('contact-form');
+  const successMessage = document.getElementById('success-message');
+
+  contactForm.addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent form from submitting in the default way
+    
+    // Check if the form is valid (you can add more validation if needed)
+    if (contactForm.checkValidity()) {
+      successMessage.style.display = 'block'; // Show success message
+      contactForm.reset(); // Optionally reset the form
+    }
+  });
+</script>
+
 
 
 <!-- footer section starts -->

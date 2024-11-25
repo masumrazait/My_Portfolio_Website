@@ -7,6 +7,31 @@
         "name": "Java",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
+
+
+    {
+        "name": "Cucumber",
+        "icon": "https://img.icons8.com/color/50/000000/cucumber.png"
+    },
+    {
+        "name": "Swagger",
+        "icon": "https://img.icons8.com/color/50/cloud-function.png"
+    },
+    {
+        "name": "Elasticsearch",
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/50/external-elasticsearch-a-search-engine-based-on-the-lucene-library-logo-shadow-tal-revivo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/50/postgreesql.png"
+    },
+    {
+        "name": "Kibana",
+        "icon": "https://img.icons8.com/color/50/000000/kibana.png"
+    },
+
+
+
     {
         "name": "Python",
         "icon": "https://img.icons8.com/color/48/python--v1.png"
